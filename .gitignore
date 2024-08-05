@@ -1,1 +1,3 @@
 taxienv/
+.env
+data/

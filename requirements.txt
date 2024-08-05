@@ -5,3 +5,5 @@ fastparquet
 tqdm # Loading Bar para ver cuanto se demora
 plotly
 scikit-learn
+python-dotenv
+hopsworks
