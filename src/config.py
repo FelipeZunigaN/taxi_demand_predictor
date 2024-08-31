@@ -6,9 +6,9 @@ from src.paths import PARENT_DIR
 
 load_dotenv(PARENT_DIR / '.env')
 
-HOPSWORK_PROJECT_NAME = 'forecast_model'
+HOPSWORKS_PROJECT_NAME = 'forecast_model'
 try:
-    HOPSWORK_API_KEY  = os.environ['HOPSWORK_API_KEY']
+    HOPSWORKS_API_KEY  = os.environ['HOPSWORK_API_KEY']
 except:
     raise Exception("Create an .env file on the project root with the HOPSWORK_API_KEY")
 

@@ -39,9 +39,8 @@ jobs:
         source .venv/bin/activate
         pip install -r requirements.txt
 
-    - name: Run feature generation script
+    - name: execute python workflows from bash script
       env: 
-        HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME }}
         HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
       run: jupyter nbconvert --to notebook --execute notebooks/12_feature_pipeline.ipynb
   
