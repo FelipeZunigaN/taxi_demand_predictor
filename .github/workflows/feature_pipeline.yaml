@@ -38,6 +38,7 @@ jobs:
       run: |
         source .venv/bin/activate
         pip install -r requirements.txt
+        pip install jupyter
 
     - name: execute python workflows from bash script
       env: 
