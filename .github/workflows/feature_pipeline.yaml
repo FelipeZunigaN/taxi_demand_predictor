@@ -36,7 +36,6 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        source .venv/bin/activate
         pip install -r requirements.txt
         pip install jupyter
 

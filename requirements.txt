@@ -8,3 +8,4 @@ scikit-learn
 python-dotenv
 hopsworks
 jupyter
+jupyter-notebook
